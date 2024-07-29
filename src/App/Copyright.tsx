@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 
 const Copyright: React.FC = memo(
   () => (
-    <footer className="info">
+    <footer className="info" style={{position: "absolute", bottom: "0px", right: "0px"}}>
       <p>
         Created by{' '}
         <a href="https://ryota-murakami.github.io/">Ryota Murakamai</a>

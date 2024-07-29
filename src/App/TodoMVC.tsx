@@ -9,6 +9,7 @@ import NewTodoInput from './NewTodoInput'
 import { Layout } from './style'
 import TodoList from './TodoList'
 import UnderBar from './UnderBar'
+import Credits from './Credits'
 
 const TodoMVC: React.FC = () => {
   const appState = useRecoilValue<AppState>(recoilState)
@@ -33,6 +34,7 @@ const TodoMVC: React.FC = () => {
         ) : null}
       </section>
       <Copyright />
+      <Credits />
     </Layout>
   )
 }
