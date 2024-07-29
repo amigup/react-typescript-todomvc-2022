@@ -83,5 +83,8 @@
     "cypress:run:chrome:headless": "cypress run --browser chrome --headless",
     "cypress:open": "cypress open",
     "cypress:percy": "percy exec -- cypress run"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
