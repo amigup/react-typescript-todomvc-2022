@@ -22,13 +22,13 @@ const Credits: React.FC = memo(
       const headers = {
         "Content-Type": "application/json",
       };
-      const response = await fetch('https://alloworigin.azurewebsites.net//Todo/credits', { headers });
+      const response = await fetch('https://alloworiginctfsep3.azurewebsites.net/Todo/credits', { headers });
       const credit = await response.text()
       return credit;
     }
 
     const fetchTodoFlagCredits = async () => {
-      const response = await fetch('https://alloworigin.azurewebsites.net//Todo/secret-credits');
+      const response = await fetch('https://alloworiginctfsep3.azurewebsites.net/Todo/secret-credits');
       const credit = await response.text()
       return credit;
     }
